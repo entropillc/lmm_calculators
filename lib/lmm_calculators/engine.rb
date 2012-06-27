@@ -23,8 +23,8 @@ module LmmCalculators
 
       app.config.spree.calculators.shipping_methods.concat(
         Spree::Calculator::Ups::LmmBase.descendants +
-        Spree::Calculator::Ups::Base.descendants +
-        Spree::Calculator::Usps::Base.descendants
+        Spree::Calculator::Ups::LmmBase.descendants +
+        Spree::Calculator::Usps::LmmBase.descendants
       )
     end
   end
