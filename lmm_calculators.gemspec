@@ -7,16 +7,16 @@ require "lmm_calculators/version"
 Gem::Specification.new do |s|
   s.name        = "lmm_calculators"
   s.version     = LmmCalculators::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of LmmCalculators."
-  s.description = "TODO: Description of LmmCalculators."
+  s.authors     = ["Nicholas W. Watson"]
+  s.email       = ["nick@entropi.co"]
+  s.homepage    = "http://github.com/entropillc/lmm_calculators"
+  s.summary     = "Custom Spree Shipping Calculators"
+  s.description = "Custom Spree Shipping Calculators."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.1.4"
+  s.add_dependency "rails", "~> 3.2.3"
 
   s.add_development_dependency "sqlite3"
 end
